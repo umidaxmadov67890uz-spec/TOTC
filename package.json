@@ -4,7 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "sass assets/scss:assets/css --watch" 
+    "blog-detail": "sass assets/scss/base/blog-detail.scss assets/css/base/blog-detail.css --watch",
+    "blog-page": "sass assets/scss/base/blog-page.scss assets/css/base/blog-page.css --watch",
+    "Checkout-page": "sass assets/scss/base/Checkout-page.scss assets/css/base/Checkout-page.css --watch",
+    "Course-Detail": "sass assets/scss/base/Course-Detail.scss assets/css/base/Course-Detail.css --watch",
+    "Course": "sass assets/scss/base/Course.scss assets/css/base/Course.css --watch",
+    "footer": "sass assets/scss/base/footer.scss assets/css/base/footer.css --watch",
+    "header": "sass assets/scss/base/header.scss assets/css/base/header.css --watch",
+    "index": "sass assets/scss/base/index.scss assets/css/base/index.css --watch",
+    "Literature-course": "sass assets/scss/base/Literature-course.scss assets/css/base/Literature-course.css --watch",
+    "Login": "sass assets/scss/base/Login.scss assets/css/base/Login.css --watch",
+    "Meeting": "sass assets/scss/base/Meeting.scss assets/css/base/Meeting.css --watch",
+    "MemberShip-page": "sass assets/scss/base/MemberShip-page.scss assets/css/base/MemberShip-page.css --watch",
+    "Search": "sass assets/scss/base/Search.scss assets/css/base/Search.css --watch"
   },
   "repository": {
     "type": "git",
