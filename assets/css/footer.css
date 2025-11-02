@@ -116,9 +116,6 @@
 }
 
 @media (max-width: 700px) {
-  html {
-    font-size: 12px;
-  }
   .footer{
     height: 550px;
   }
@@ -131,6 +128,13 @@
   .footer__box__text {
     text-align: center;
     width: 300px;
+    font-size: var(--size18);
+  }
+  .footer__text{
+    font-size: var(--size16);
+  }
+  .footer__text1{
+    font-size: var(--size14);
   }
   .footer__form {
     margin: 10px 0 0;

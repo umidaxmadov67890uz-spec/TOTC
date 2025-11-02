@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/base/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/Search.css">
     <title>tOTC</title>
 </head>
+
 <body>
-     <header class="header">
+    <header class="header">
         <div class="header__container">
             <div class="header__left">
                 <a href="../pages/Search.html" class="haeder__logo-link">
@@ -50,7 +56,8 @@
                         <img src="../assets/images/header-img.png" alt="" class="header__box__image">
                     </div>
                     <p class="header__text">lina</p>
-                    <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="2" d="m6 9l6 6l6-6" />
                     </svg>
@@ -59,11 +66,42 @@
         </div>
     </header>
     <main class="main">
-        <section class="main__section">
-            <div class="container">
-                
+        <section class="main__section main__section--bg-image">
+            <div class="bg-opacity">
+                <div class="container">
+                    <div class="search">
+                        <form action="#" class="search__form">
+                            <div class="search__form__search-group">
+                                <input type="text" placeholder="Search your favourite course"
+                                    class="search__form__search">
+                                <button type="reset" class="search__form__btn">Search</button>
+                            </div>
+                            <div class="search__form__nav-group">
+                                <select name="Subject" title="Subject" class="search__form__select">
+                                    <option value="Subject">Subject</option>
+                                </select>
+                                <select name="Partner" title="Partner" class="search__form__select">
+                                    <option value="Partner">Partner</option>
+                                </select>
+                                <select name="Program" title="Program" class="search__form__select">
+                                    <option value="Program">Program</option>
+                                </select>
+                                <select name="Language" title="Language" class="search__form__select">
+                                    <option value="Language">Language</option>
+                                </select>
+                                <select name="Abaliability" title="Abaliability" class="search__form__select">
+                                    <option value="Abaliability">Abaliability</option>
+                                </select>
+                                <select name="Learning Type" title="Learning Type" class="search__form__select">
+                                    <option value="Learning Type">Learning Type</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>

@@ -136,7 +136,7 @@
     .header__container{
         padding: 10px 20px;
     }
-    html{
+    .header__link{
         font-size: 12px;
     }
     .header__logo{
