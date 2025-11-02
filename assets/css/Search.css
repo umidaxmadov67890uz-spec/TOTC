@@ -6,4 +6,27 @@
   text-decoration: none;
 }
 
-/*# sourceMappingURL=Search.css.map */
+:root {
+  --size11: 0.68rem;
+  --size13: 0.81rem;
+  --size14: 0.85rem;
+  --size16: 1rem;
+  --size18: 1.12rem;
+  --size20: 1.25rem;
+  --size22: 1.37rem;
+  --size24: 15rem;
+  --size26: 1.62rem;
+  --size28: 1.75rem;
+  --size30: 1.87rem;
+  --size32: 2rem;
+  --size36: 2.25rem;
+  --size40: 2.5rem;
+  --size44: 275rem;
+  --sizw48: 3rem;
+  --size50: 3.12rem;
+  --size54: 3.37rem;
+  --size60: 3.75rem;
+  --size96: 6rem;
+}
+
+
