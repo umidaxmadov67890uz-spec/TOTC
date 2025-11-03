@@ -234,7 +234,6 @@
   }
   .card-group__list {
     width: 1200px;
-    /* border: 1px solid red; */
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -280,11 +279,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .card-group__card{
+  .card-group__card {
     width: 430px;
   }
 
-  .card-group__card__image{
+  .card-group__card__image {
     width: 400px;
   }
 }
@@ -309,27 +308,26 @@
     padding: 15px 40px 15px 15px;
   }
 
-  .card-group{
+  .card-group {
     width: 700px;
   }
-  
-  .card-group__list{
+
+  .card-group__list {
     width: 700px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .card-group__item{
+  .card-group__item {
     width: 340px;
   }
 
-  .card-group__card{
+  .card-group__card {
     width: 320px;
   }
 
-  .card-group__card__image{
+  .card-group__card__image {
     width: 290px;
   }
-  
 }
 
 @media (max-width: 750px) {
@@ -341,24 +339,24 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .card-group{
+  .card-group {
     width: 500px;
   }
 
-  .card-group__list{
+  .card-group__list {
     width: 500px;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .card-group__item{
+  .card-group__item {
     width: 480px;
   }
-  
-  .card-group__card{
+
+  .card-group__card {
     width: 460px;
   }
 
-  .card-group__card__image{
+  .card-group__card__image {
     width: 430px;
   }
 }
@@ -381,6 +379,24 @@
     width: 100%;
     position: static;
   }
+
+  .card-group {
+    width: 350px;
+  }
+
+  .card-group__list {
+    width: 350px;
+  }
+  .card-group__item {
+    width: 340px;
+  }
+  .card-group__card {
+    width: 320px;
+    padding: 10px 10px 25px;
+  }
+  .card-group__card__image {
+    width: 300px;
+  }
 }
 @media (max-width: 400px) {
   .search__form__search-group {
@@ -388,5 +404,20 @@
   }
   .search__form__search {
     width: 290px;
+  }
+  .card-group {
+    width: 280px;
+  }
+  .card-group__list {
+    width: 280px;
+  }
+  .card-group__item {
+    width: 260px;
+  }
+  .card-group__card {
+    width: 250px;
+  }
+  .card-group__card__image {
+    width: 220px;
   }
 }
