@@ -35,9 +35,9 @@
 }
 
 .header__container {
-  width: 1900px;
+  width: 1680px;
   margin: 0 auto;
-  padding: 30px 100px;
+  padding: 30px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,7 +97,7 @@
 
 @media (max-width: 1500px){
     .header__container{
-        padding: 20px 50px;
+        padding: 20px 0;
     }
     .header__list{
         gap: 30px;
@@ -109,7 +109,7 @@
 
 @media (max-width: 1200px){
     .header__container{
-        padding: 20px 30px;
+        padding: 20px 0;
     }
     .header__logo{
         width: 80px;
@@ -134,7 +134,7 @@
 
 @media (max-width: 800px){
     .header__container{
-        padding: 10px 20px;
+        padding: 10px 0;
     }
     .header__link{
         font-size: 12px;
