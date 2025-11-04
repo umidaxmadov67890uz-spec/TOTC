@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/base/Checkout-page.css">
+    <link rel="stylesheet" href="/assets/css/Checkout-page.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,27 +67,31 @@
                 <div class="wrapper__box__one">
                     <h2 class="wrapper__box__one__title">Checkout</h2>
                     <p class="wrapper__box__one__text">Cart Type</p>
-                    <div class="wrapper__box__one__image">
+                    <div class="wrapper__box__one__images">
                         <img src="/assets/images/Group 307.png" alt="">
                         <img src="/assets/images/am_amex_06 1.png" alt="">
                         <img src="/assets/images/download 1.png" alt="">
-                        <img src="/assets/images/ractangle85.png" alt="">
+                        <img src="/assets/images/ractangle87.png" alt="" class="wrapper__box__one__images__one">
                     </div>
                     <form action="" class="wrapper__box__one__form">
-                        <label for="name on Card">Name on Card</label><br>
-                        <input type="text" id="name on Card" placeholder="Enter name on Card"><br>
-                        <label for="Card Number">Card Number</label><br>
-                        <input type="number" id="Card Number" placeholder="Enter Card Number"><br>
+                        <label for="name on Card" class="wrapper__box__one__form__label">Name on Card</label><br>
+                        <input type="text" id="name on Card" placeholder="Enter name on Card" class="wrapper__box__one__form__input"><br>
+                        <label for="Card Number" class="wrapper__box__one__form__label">Card Number</label><br>
+                        <input type="number" id="Card Number" placeholder="Enter Card Number" class="wrapper__box__one__form__input"><br>
                         <div class="wrapper__box__one__form__box">
-                            <label for="Expiration Date ( MM/YY )">Expiration Date ( MM/YY )</label><br>
-                            <input type="datetime" id="Expiration Date ( MM/YY )" placeholder="Enter Expiration Date">
-                            <input type="checkbox">
-                            <label for="">Save my information for faster checkout</label>
-                            <label for="CVC">CVC</label><br>
-                            <input type="number" id="CVC" placeholder="Enter CVC">
+                            <div>
+                                <label for="Expiration Date ( MM/YY )" class="wrapper__box__one__form__label">Expiration Date ( MM/YY )</label><br>
+                                <input type="datetime" id="Expiration Date ( MM/YY )" placeholder="Enter Expiration Date" class="wrapper__box__one__form__input__one"><br>
+                                <input type="checkbox" class="wrapper__box__one__form__checkbox">
+                                <label for="" class="wrapper__box__one__form__label__one">Save my information for faster checkout</label><br>
+                            </div>
+                            <div>
+                                <label for="CVC" class="wrapper__box__one__form__label">CVC</label><br>
+                                <input type="number" id="CVC" placeholder="Enter CVC" class="wrapper__box__one__form__input__one">
+                            </div>
                         </div>
                     </form>
-
+                    <button class="wrapper__box__one__btn">Confirm Payment</button>
                 </div>
             </div>
         </div>     
