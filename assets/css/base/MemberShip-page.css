@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +7,63 @@
   list-style: none;
   text-decoration: none;
 }
-
+body {
+  font-family: "Poppins", sans-serif;
+}
 /*# sourceMappingURL=MemberShip-page.css.map */
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo img {
+  width: 90px;
+  height: 80px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+.nav a {
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: rgba(91, 91, 91, 1);
+}
+.header__profile {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header__profile img {
+  width: 43px;
+  height: 43px;
+  border-radius: 50px;
+  opacity: 1;
+}
+.user__name {
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
