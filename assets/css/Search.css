@@ -229,9 +229,9 @@
 }
 
 .cal {
-  width: 1680px;
-  margin: 65px 0;
+  width: 1630px;
   margin: 0 auto;
+  /* margin: 65px 0; */
   padding: 30px 0;
   border-radius: 20px;
   background: #9dccff75;
@@ -291,7 +291,7 @@
   width: 825px;
   height: 475px;
   overflow: hidden;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -303,7 +303,7 @@
 
 .cal__box-right__img2 {
   height: 225px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: absolute;
   top: 85px;
   left: 80px;
@@ -363,7 +363,7 @@
 .cal__box-right__box__text-active {
   padding: 0 5px;
   font-weight: 600;
-  color: #af2828;
+  color: #fff;
   border-radius: 5px;
   background: #3793ff;
   font-size: var(--size11);
@@ -372,6 +372,7 @@
 
 .cal__box-right__btn-left {
   padding: 12px 33px;
+  cursor: pointer;
   border: none;
   border-radius: 50px;
   font-family: "Nunito Sans";
@@ -383,19 +384,29 @@
   color: #fff;
   background: #3465e1;
 }
+
 .cal__box-right__btn-right {
   padding: 12px 33px;
+  cursor: pointer;
   border: none;
   border-radius: 50px;
   font-family: "Nunito Sans";
   font-size: var(--size22);
   font-weight: 700;
+  display: flex;
+  gap: 8px;
+  align-items: center;
   position: absolute;
   top: 355px;
   left: 200px;
   color: #fff;
   background: #e13468;
-  box-shadow: 0px 8px 20px 20px #e30f4e4d;
+  box-shadow: 0px 0px 0px 5px #e30f4e4d;
+}
+
+.cal__box-right__btn-icon{
+  height: 25px;
+  transform: rotate(-90deg);
 }
 
 @media (max-width: 1700px) {
@@ -409,6 +420,14 @@
   }
   .card-group__item {
     margin: 0 auto;
+  }
+
+  .cal{
+    width: 1170px;
+    padding: 30px 0px 30px 70px;
+  }
+  .cal__box__right{
+    transform: scale(0.8);
   }
 }
 
@@ -456,7 +475,16 @@
   .card-group__card__image {
     width: 400px;
   }
+
+  .cal{
+    width: 1000px;
+  }
+
+  .cal__box__right{
+    transform: scale(0.7);
+  }
 }
+
 
 @media (max-width: 1000px) {
   .search__form__search-group {
