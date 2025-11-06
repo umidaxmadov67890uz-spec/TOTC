@@ -95,13 +95,27 @@ body {
   padding: 70px;
 }
 .card {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
   width: 370px;
   height: 536px;
-  opacity: 1; 
+  opacity: 1;
   border-radius: 8px;
   background: rgba(255, 255, 255, 1);
-  border: 1px solid #000;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 370px;
+  height: 536px;
+  opacity: 1;
+  box-shadow: 0px 2px 10px rgb(223, 201, 201);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
 }
 .card__subtitle {
   font-family: "Inter" sans-serif;
@@ -136,7 +150,7 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
-.card__feature{
+.card__feature {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -149,7 +163,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/assets/images/BG1.png');
+  background-image: url("/assets/images/BG1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -161,7 +175,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/assets/images/BG2.png');
+  background-image: url("/assets/images/BG2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -173,8 +187,187 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/assets/images/BG.png');
+  background-image: url("/assets/images/BG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+.card__btn {
+  color: rgba(73, 187, 189, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 256px;
+  height: 64px;
+  border-radius: 16px;
+  border-width: 1px;
+  opacity: 1;
+  border: 1px solid rgba(173, 173, 173, 1);
+}
+.card__btn2 {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 256px;
+  height: 64px;
+  border-radius: 16px;
+  border-width: 1px;
+  opacity: 1;
+  background: rgba(73, 187, 189, 1);
+}
+.card__btn3 {
+  color: rgba(73, 187, 189, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 256px;
+  height: 64px;
+  border-radius: 16px;
+  border-width: 1px;
+  opacity: 1;
+  border: 1px solid rgba(173, 173, 173, 1);
+}
+.second__section {
+  padding-top: 197px;
+  padding-bottom: 100px;
+  border: 1px solid #000;
+}
+.second__container {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 380px;
+  background: rgba(37, 38, 65, 1);
+  border-radius: 37px;
+  padding: 70px 0px;
+}
+.second__container h2 {
+  font-family: "Poppins" sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.second__container p {
+  width: 959px;
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.second__btn {
+  margin-top: 35px;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(73, 187, 189, 1);
+  width: 236px;
+  font-size: 16px;
+  height: 63px;
+  opacity: 1;
+  border: none;
+  border-radius: 12px;
+}
+.course__section {
+  border: 1px solid #000;
+}
+.course__container {
+  padding: 20px;
+  border: 1px solid #000;
+}
+.course__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+}
+.course__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.course__info span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(85, 239, 196, 1);
+}
+.course__info p {
+  margin: 0;
+  font-size: 16px;
+  color: #000000;
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+.course__card1 {
+  display: flex;
+  max-width: 1200px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+}
+.course__info1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.course__info1 > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.course__info1 span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(85, 239, 196, 1);
+}
+.course__info1 p {
+  margin: 0;
+  font-size: 16px;
+  color: #000000;
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+.box {
+  margin-top: 16px;
+  margin-left: 24px;
+  font-size: 14px;
+  color: #000000;
+}
+.box p {
+  color: rgba(105, 105, 132, 1);
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 2%;
 }
