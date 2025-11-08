@@ -421,13 +421,14 @@
 }
 
 .main__section--cards-bg {
+  padding: 90px 0 200px;
   background: #9dccff6c;
 }
 
 .cards-bg__box {
   margin: 0 auto;
   /* border: 1px solid red; */
-  width: 1680px;
+  width: 1620px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -441,6 +442,52 @@
   font-weight: 7000;
   font-size: var(--size20);
   color: #49BBBD;
+}
+.cards-bg__box__image{
+  transform: rotate(-90deg);
+  display: none;
+}
+.ceators__cards{
+  width: 1650px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.creators__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.creators__card{
+  width: 515px;
+  height: 450px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+.creators__image{
+  position: absolute;
+  top: 0;
+}
+.creators__box{
+  width: 515px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 2px 2px 10px 2px #00000040;
+}
+.creators__title{
+  margin: 160px 0 25px;
+  font-weight: 500;
+  font-size: var(--size24);
+  text-align: center;
+}
+.creators__text{
+  width: 390px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: var(--size18);
+  color: #696984;
 }
 @media (max-width: 1700px) {
   .card-group {
@@ -639,6 +686,9 @@
     width: 600px;
     text-align: center;
   }
+  .main__section--cards-bg{
+    padding: 50px 0 150px;
+  }
   .cards-bg__box{
     width: 670px;
   }
@@ -696,12 +746,13 @@
     display: none;
   }
   .search__form__search-group {
-    width: 350px;
+    width: 300px;
     gap: 10px;
     flex-direction: column;
+    /* display: none; */
   }
   .search__form__search {
-    width: 350px;
+    width: 300px;
     height: 50px;
     font-size: var(--size16);
   }
@@ -715,7 +766,7 @@
   }
 
   .card-group__list {
-    width: 350px;
+    width: 340px;
   }
   .card-group__item {
     width: 340px;
@@ -728,6 +779,9 @@
     width: 300px;
   }
   .cal {
+    width: 370px;
+  }
+  .cal__box-left__title{
     width: 370px;
   }
   .cal__box__right {
@@ -749,14 +803,20 @@
     top: 340px;
     left: 180px;
   }
+  .main__section--cards-bg{
+    padding: 30px 0 100px;
+  }
   .cards-bg__box{
-    width: 330px;
+    width: 300px;
   }
   .card-bg__box__title{
-    font-size: var(--size20);
+    font-size: var(--size18);
   }
   .cards-bg__box__text{
-    font-size: var(--size18);
+    display: none;
+  }
+  .cards-bg__box__image{
+    display: inline-block;
   }
 }
 
@@ -823,5 +883,8 @@
   }
   .cal__box-right__btn-icon {
     height: 20px;
+  }
+  .cards-bg__box{
+    width: 260px;
   }
 }
