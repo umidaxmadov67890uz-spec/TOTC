@@ -74,7 +74,7 @@ body {
   padding: 15px;
 }
 .price {
-  border: 1px solid #000;
+  padding: 20px;
 }
 .price__title {
   padding-top: 50px;
@@ -126,7 +126,6 @@ body {
   vertical-align: middle;
 }
 .card__name {
-  border: 1px solid #000;
   display: flex;
   align-items: baseline;
   width: 306px;
@@ -240,7 +239,6 @@ body {
 .second__section {
   padding-top: 197px;
   padding-bottom: 100px;
-  border: 1px solid #000;
 }
 .second__container {
   color: #fff;
@@ -281,11 +279,10 @@ body {
   border-radius: 12px;
 }
 .course__section {
-  border: 1px solid #000;
+  padding: 20px;
 }
 .course__container {
   padding: 20px;
-  border: 1px solid #000;
 }
 .course__card {
   display: flex;
@@ -293,7 +290,6 @@ body {
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 7px;
-  border-bottom: 1px solid #000;
 }
 .course__info {
   display: flex;
@@ -370,4 +366,258 @@ body {
   font-size: 14px;
   line-height: 180%;
   letter-spacing: 2%;
+}
+.student__section {
+  padding-bottom: 30px;
+  background: rgb(170, 203, 238);
+}
+.student__container {
+  padding: 20px;
+}
+.student__container h2 {
+  padding: 50px 50px;
+  color: rgba(45, 52, 54, 1);
+  font-family: "Poppins" sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.student__cards {
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.student__card {
+  padding: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+  width: 304px;
+  height: 295px;
+  opacity: 1;
+  border-radius: 20px;
+}
+.st__img {
+  padding: 10px;
+  width: 118px;
+  height: 118px;
+  background: #6b6262;
+  border-radius: 10px;
+}
+.student__image {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 6px;
+}
+.student__name {
+  color: rgba(45, 52, 54, 1);
+  font-family: "Poppins" sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.student__bio {
+  color: rgba(105, 105, 132, 1);
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.app__section {
+  padding: 50px;
+}
+.app__container {
+  background: rgba(37, 38, 65, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+  height: 150px;
+  border-radius: 37px;
+  padding: 80px;
+}
+.app__title {
+  color: #fff;
+  font-family: "Poppins" sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.btns {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.first__btn {
+  color: #fff;
+  height: 40px;
+  background: rgba(41, 185, 231, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 254px;
+  opacity: 1;
+  border-radius: 12px;
+}
+.teacher__section {
+  margin-bottom: 100px;
+}
+.teacher__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.teacher__card {
+  box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+  padding: 20px;
+  width: 530px;
+  height: 600px;
+  opacity: 1;
+  border-radius: 20px;
+}
+.teacher__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.teacher__text img {
+  width: 500px;
+  height: 342.5px;
+  opacity: 1;
+  border-radius: 20px;
+}
+.teacher__title {
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 180%;
+  letter-spacing: 0%;
+}
+.teacher__bio {
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0%;
+}
+.teacher__btn {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+.teacher__button {
+  color: #fff;
+  background: rgba(73, 187, 189, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 55px;
+  opacity: 1;
+  border-radius: 12px;
+}
+.footer {
+  background: rgba(37, 38, 65, 1);
+}
+.container {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__logo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer__logo p {
+  width: 150px;
+  color: #fff;
+  font-family: "Poppins" sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 4%;
+}
+.form__container p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: rgba(178, 179, 207, 1);
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+input {
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  background: rgba(37, 38, 65, 1);
+  width: 300px;
+  height: 50px;
+  opacity: 1;
+  border: 1px solid #494343;
+  border-radius: 80px;
+}
+.submit__btn {
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  background: rgba(73, 187, 189, 1);
+  width: 159px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  opacity: 1;
+  border-radius: 60px;
+}
+.careers {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  margin-top: 50px;
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  color: rgba(178, 179, 207, 1);
+  text-align: center;
+  padding-bottom: 15px;
+}
+.footer__end {
+  font-family: 'Poppins' sans-serif;
+  color: rgba(178, 179, 207, 1);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-align: center;
+  padding: 10px;
 }
