@@ -646,7 +646,43 @@ input {
   text-align: center;
   padding: 10px;
 }
-
+@media (max-width: 992px) {
+  .header__container {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+  .price__title {
+    font-size: 50px;
+  }
+  .price__cards {
+    flex-direction: column;
+  }
+  .second__container {
+    width: 100%;
+    padding: 20px 15px;
+    text-align: center;
+  }
+  .second__container p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .student__container {
+    width: 100%;
+  }
+  .student__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .teacher__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+}
 @media (max-width: 768px) {
   .header__container {
     display: flex;
@@ -701,6 +737,7 @@ input {
     text-align: center;
   }
   .student__cards {
+    display: flex;
     flex-direction: column;
     gap: 30px;
   }
@@ -731,5 +768,55 @@ input {
   .teacher__button {
     width: 170px;
     height: 50px;
+  }
+}
+@media(max-width: 480px) {
+  .header__container{
+    display: flex;
+  }
+  .price__title{
+    font-size: 30px;
+  }
+  .price__cards{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .card{
+    width: 85%;
+    height: auto;
+  }
+  .card2{
+    width: 85%;
+    height: auto;
+  }
+  .second__container{
+    width: 100%;
+    height: auto;
+  }
+  .app__container{
+    width: 100%;
+    height: auto;
+  }
+  .btns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .first__btn{
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .careers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  form{ 
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
   }
 }
