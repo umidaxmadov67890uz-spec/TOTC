@@ -605,6 +605,13 @@
   .ceators__cards {
     width: 1200px;
   }
+  .student{
+    width: 1400px;
+  }
+  .student__box{
+    width: 1400px;
+    padding: 60px 60px 30px 50px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -617,6 +624,18 @@
   }
   .search__form__select {
     font-size: var(--size20);
+  }
+  .student{
+    width: 1200px;
+  }
+  .student__box{
+    width: 1200px;
+  }
+  .student__left{
+    width: 400px;
+  }
+  .student__left__text{
+    width: 400px;
   }
 }
 
@@ -706,6 +725,29 @@
   .creators__card {
     width: 420px;
   }
+  .student{
+    width: 650px;
+  }
+  .student__title{
+    text-align: center;
+  }
+  .student__box{
+    width: 650px;
+    flex-direction: column;
+    padding: 60px 0 30px;
+  }
+  .student__left__title{
+    text-align: center;
+  }
+  .student__left__subtitle{
+    text-align: center;
+  }
+  .student__left__text{
+    text-align: center;
+  }
+  .student__right{
+    display: none;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -780,13 +822,6 @@
   .creators__card {
     width: 500px;
   }
-  /*.creators__image{
-    top: 10px;
-  }
-  .creators__box{
-    margin-top: 0;
-    padding: 150px 30px 20px 30px;
-  } */
 }
 
 @media (max-width: 750px) {
@@ -835,6 +870,9 @@
     font-size: var(--size26);
   }
   .ceators__cards {
+    width: 500px;
+  }
+  .student__box{
     width: 500px;
   }
 }
