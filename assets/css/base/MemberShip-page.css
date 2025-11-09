@@ -7,10 +7,35 @@
   list-style: none;
   text-decoration: none;
 }
+html,
 body {
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
 /*# sourceMappingURL=MemberShip-page.css.map */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  width: 30px;
+  height: 25px;
+  z-index: 2000;
+}
+
+.hamburger .bar {
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
 .header {
   position: relative;
   top: 0;
@@ -612,7 +637,7 @@ input {
   padding-bottom: 15px;
 }
 .footer__end {
-  font-family: 'Poppins' sans-serif;
+  font-family: "Poppins" sans-serif;
   color: rgba(178, 179, 207, 1);
   font-weight: 400;
   font-size: 18px;
@@ -620,4 +645,91 @@ input {
   letter-spacing: 4%;
   text-align: center;
   padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    display: flex;
+  }
+  .price__title {
+    font-size: 45px;
+  }
+  .price__cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .nav__menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    padding: 2rem 0;
+    transform: translateX(-100%);
+  }
+
+  .nav__menu.active {
+    transform: translateX(0);
+  }
+  .second__container {
+    width: 100%;
+    text-align: center;
+    padding: 30px 15px;
+  }
+  .second__container h2 {
+    font-size: 25px;
+  }
+  .second__container p {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .student__container {
+    padding: 30px 15px;
+  }
+  .student__container h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .student__cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .app__container {
+    width: 100%;
+    height: 160px;
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+  .teacher__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .teacher__card {
+    width: 100%;
+    height: auto;
+  }
+  .teacher__text img {
+    width: 100%;
+    height: auto;
+  }
+  .teacher__title {
+    font-size: 24px;
+  }
+  .teacher__bio {
+    font-size: 15px;
+  }
+  .teacher__button {
+    width: 170px;
+    height: 50px;
+  }
 }
