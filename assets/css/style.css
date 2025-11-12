@@ -1,0 +1,149 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f3f6fa;
+}
+
+a{
+  color: #000;
+}
+
+/* --- umumiy section --- */
+.login-section, .register-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --- chap rasm qismi --- */
+.image-box {
+  width: 50%;
+  position: relative;
+  background: #d9f3f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.image-box .text-overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #fff;
+}
+.image-box .text-overlay h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.image-box .text-overlay p {
+  font-size: 14px;
+}
+
+/* --- o‘ng forma qismi --- */
+.form-box {
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+}
+.form-box h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.form-box .tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.form-box .tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+.form-box .tabs button.active {
+  background: linear-gradient(to right, #4fd1c5, #8be0d9);
+  color: #fff;
+}
+.form-box .desc {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 25px;
+}
+.form-box form {
+  text-align: left;
+}
+.form-box form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.form-box form input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  outline: none;
+  transition: border 0.3s;
+}
+.form-box form input:focus {
+  border-color: #4fd1c5;
+}
+.form-box form .password-field {
+  position: relative;
+}
+.form-box form .password-field .toggle-eye {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.form-box form .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.form-box form .options a {
+  text-decoration: none;
+  color: #4fd1c5;
+}
+.form-box form .btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #4fd1c5, #8be0d9);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-box form .btn:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=style.css.map */
