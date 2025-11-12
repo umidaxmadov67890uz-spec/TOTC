@@ -11,8 +11,7 @@ header {
   background: linear-gradient(rgba(73, 187, 189, 1));
   padding-left: 75px;
 }
-.header__item {
-}
+
 .header__container {
   width: 1700px;
   margin: 0 auto;
@@ -31,6 +30,14 @@ header {
   border: none;
   border-radius: 80px;
 }
+.header__button-name {
+  background: rgba(255, 255, 255, 0.3);
+  width: 106px;
+  height: 41px;
+  border: none;
+  border-radius: 80px;
+}
+
 .header__list {
   display: flex;
   gap: 70px;
@@ -57,7 +64,12 @@ header {
   right: 40px;
   width: 544px;
   height: 892px;
+  position: relative;
+  right: 40px;
+  width: 604px;
+  height: 892px;
 }
+
 .header__box__img-name {
   position: relative;
   right: 940px;
@@ -68,6 +80,21 @@ header {
 .header__box__list {
   width: 681px;
   height: 404px;
+}
+.header__box__img_main {
+  width: 344px;
+  height: 150px;
+  position: relative;
+  bottom: 5px;
+}
+.header__box__list {
+  width: 681px;
+  height: 404px;
+  align-items: center;
+}
+.header__box__content {
+  display: flex;
+  align-items: center;
 }
 .header__box__sub {
   width: 681px;
@@ -91,16 +118,138 @@ header {
   padding-bottom: 40px;
 }
 .header__box__btn {
-  width: 184px;
-  height: 60px;
+  width: 204px;
+  height: 80px;
   border-radius: 80px;
   border: none;
   background: rgba(255, 255, 255, 0.3);
   color: white;
+  position: relative;
+  bottom: 23px;
+  font-size: 20px;
 }
 .header__box__btn:hover {
   background: white;
   transition: 1.5s ease-in-out;
+  color: black;
 }
-
+main {
+  width: 1700px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 55px;
+  padding-right: 30px;
+}
+.main__section__container__subtitle {
+  font-family: Arial;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.main__section__container__title {
+  font-family: Buenos Aires Trial;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  width: 1200px;
+  text-align: center;
+  padding-left: 500px;
+}
+.part__item {
+  font-family: Buenos Aires Trial;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  width: 204px;
+  height: 96px;
+  color: rgba(73, 187, 189, 1);
+}
+.part__item__text {
+  font-family: Buenos Aires Trial;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  color: rgba(1, 5, 20, 0.8);
+}
+.main__section__container__name_part {
+  width: 204px;
+  height: 96px;
+  text-align: center;
+}
+.main__section__container__name_part_x {
+  width: 284px;
+  height: 96px;
+  text-align: center;
+}
+.main__section__container__name {
+  padding-top: 80px;
+  display: flex;
+  gap: 125px;
+}
+.main__section_sec {
+  padding-top: 135px;
+}
+.main__section__sub {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: rgba(0, 203, 184, 1);
+  text-align: center;
+}
+.main__section__tit {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 1200px;
+  height: 86px;
+  padding-left: 430px;
+  color: rgba(105, 105, 132, 1);
+}
+.main__section__list {
+  width: 450px;
+  height: 430px;
+  border-radius: 20px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 8px 8px 8px gray;
+}
+.main__section__list__sub {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(47, 50, 125, 1);
+}
+.main__section__list__tit {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(105, 105, 132, 1);
+}
+.main__section__container_second {
+  display: flex;
+  gap: 100px;
+  padding-top: 80px;
+  align-items: center;
+}
 /*# sourceMappingURL=index.css.map */
