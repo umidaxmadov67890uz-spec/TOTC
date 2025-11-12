@@ -6,8 +6,8 @@
   text-decoration: none;
 }
 :root {
-  --size11: 0.68rem;
-  --size13: 0.81rem;
+  --size11: 0.6875rem;
+  --size13: 0.8125rem;
   --size14: 0.85rem;
   --size16: 1rem;
   --size18: 1.12rem;
@@ -51,7 +51,7 @@
 .wrapper__box__one__title{
   font-family: Poppins;
   font-weight: 600;
-  font-size: 36px;
+  font-size: var(--size36);
   line-height: 100%;
   letter-spacing: 0%;
   color: #252641;
@@ -60,7 +60,7 @@
 .wrapper__box__one__text{
   font-family: Poppins;
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--size18);
   color: #5B5B5B;
   line-height: 100%;
   letter-spacing: 0%;
@@ -83,7 +83,7 @@
   margin-left: 50px;
   font-family: Poppins;
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--size18);
   color: #5B5B5B;
   line-height: 100%;
   letter-spacing: 0%;
@@ -99,7 +99,7 @@
   padding-left: 21px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--size18);
   color: #9D9B9B;
   line-height: 100%;
   letter-spacing: 0%;
@@ -116,7 +116,7 @@
   padding-left: 21px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--size18);
   color: #9D9B9B;
   line-height: 100%;
   letter-spacing: 0%;
@@ -124,7 +124,7 @@
 .wrapper__box__one__form__label__one{
   font-family: Poppins;
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--size18);
   color: #9D9B9B;
   line-height: 100%;
   letter-spacing: 0%;
@@ -144,7 +144,7 @@
   border-radius: 12px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 26px;
+  font-size: var(--size26);
   color: #FFFFFF;
   line-height: 100%;
   letter-spacing: 0%;
@@ -160,7 +160,7 @@
 .wrapper__box__ONE__page__title{
   font-family: Poppins;
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--size24);
   color: #252641;
   line-height: 100%;
   letter-spacing: 0%;
@@ -181,7 +181,7 @@
   font-family: Poppins;
   font-weight: 400;
   font-style: Regular;
-  font-size: 18px;
+  font-size: var(--size18);
   color: #000000;
   line-height: 180%;
   letter-spacing: 2%;
@@ -190,7 +190,7 @@
   font-family: Poppins;
   font-weight: 400;
   font-style: Regular;
-  font-size: 18px;
+  font-size: var(--size18);
   color: #5B5B5B;
   line-height: 180%;
   letter-spacing: 2%;
@@ -199,7 +199,7 @@
   font-family: Poppins;
   font-weight: 400;
   font-style: Regular;
-  font-size: 24px;
+  font-size: var(--size24);
   color: #000000;
   line-height: 180%;
   letter-spacing: 2%;
@@ -219,7 +219,7 @@
   font-family: Poppins;
   font-weight: 600;
   font-style: SemiBold;
-  font-size: 20px;
+  font-size: var(--size20);
   color: #5B5B5B;
   line-height: 180%;
   letter-spacing: 2%;
@@ -228,7 +228,7 @@
   font-family: Poppins;
   font-weight: 600;
   font-style: SemiBold;
-  font-size: 20px;
+  font-size: var(--size20);
   color: #000000;
   line-height: 180%;
   letter-spacing: 2%;
@@ -253,7 +253,7 @@
 .navar__box__title{
   font-family: Poppins;
   font-weight: 500;
-  font-size: 30px;
+  font-size: var(--size30);
   color: #000000;
   line-height: 100%;
   letter-spacing: 2%;
@@ -272,7 +272,7 @@
 .navar__box__link{
   font-family: Poppins;
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--size20);
   color: #49BBBD;
   letter-spacing: 0%;
 }
@@ -288,7 +288,7 @@
 .navar__box__one__title{
   font-family: Poppins;
   font-weight: 700;
-  font-size: 28px;
+  font-size: var(--size28);
   color: #FFFFFF;
   line-height: 100%;
   letter-spacing: 0%;
@@ -301,7 +301,7 @@
   margin-left: 48.82px;
   font-family: Poppins;
   font-weight: 500;
-  font-size: 20px;
+  font-size: var(--size20);
   color: #FFFFFF;
   line-height: 180%;
   letter-spacing: 2%;
@@ -335,7 +335,7 @@
   width: 156px;
   font-family: Poppins;
   font-weight: 600;
-  font-size: 22px;
+  font-size: var(--size22);
   color: #FFFFFF;
   line-height: 150%;
   letter-spacing: 4%;
@@ -343,7 +343,7 @@
 .subcontent__box__title__two{
   font-family: Poppins;
   font-weight: 500;
-  font-size: 26px;
+  font-size: var(--size26);
   color: #B2B3CF;
   line-height: 100%;
   letter-spacing: 4%;
@@ -366,7 +366,7 @@
   padding-left: 30px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--size20);
   color: #83839A;
   line-height: 100%;
   letter-spacing: 4%;
@@ -380,7 +380,7 @@
   background-color: #49BBBD;
   font-family: Poppins;
   font-weight: 500;
-  font-size: 22px;
+  font-size: var(--size22);
   color: #FFFFFF;
   line-height: 100%;
   letter-spacing: 0%;
@@ -395,7 +395,7 @@
 .subcontent__box__list__item{
   font-family: Poppins;
   font-weight: 400;
-  font-size: 22px;
+  font-size: var(--size22);
   color: #B2B3CF;
   line-height: 100%;
   letter-spacing: 4%;
@@ -413,8 +413,128 @@
   margin-top: 20px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 22px;
+  font-size: var(--size22);
   color: #B2B3CF;
   line-height: 100%;
   letter-spacing: 4%;
+}
+@media (max-width: 600px){
+  .header__nav{
+    display: none;
+  }
+  .wrapper .container{
+    margin-left: -100px;
+    flex-direction: column;
+  }
+  .wrapper__box__one{
+    width: 590px;
+  }
+  .wrapper__box__one__title{
+    font-size: var(--size24);
+  }
+  .wrapper__box__one__text{
+    font-size: var(--size14);
+  }
+  .wrapper__box__one__images{
+    margin-bottom: 15px;
+  }
+  .wrapper__box__one__images__img{
+    width: 70px;
+    height: 50px;
+  }
+  .wrapper__box__one__images__one{
+    width: 70px;
+    height: 50px;
+  }
+  .wrapper__box__one__form__label{
+    font-size: var(--size14);
+  }
+  .wrapper__box__one__form__input{
+    width: 400px;
+    font-size: var(--size13);
+  }
+  .wrapper__box__one__form__box{
+    flex-direction: column;
+  }
+  .wrapper__box__one__form__input__one{
+    font-size: var(--size13);
+  }
+  .wrapper__box__one__btn{
+    width: 400px;
+    margin-top: 15px;
+    font-size: var(--size14);
+  }
+  .wrapper__box__ONE__page{
+    width: 590px;
+  }
+  .wrapper__box__ONE__page__box{
+    width: 550px;
+  }
+  .wrapper__box__ONE__page__list__item{
+    width: 550px;
+  }
+  .wrapper__box__ONE{
+    margin-bottom: -80px;
+  }
+  .navar .container{
+    margin-left: -50px;
+  }
+  .navar__box__two{
+    width: 590px;
+    margin-bottom: -30px;
+  }
+  .navar__box__title{
+    font-size: var(--size18);
+  }
+  .navar__box__link{
+    font-size: var(--size13);
+  }
+  .navar__box__three{
+    flex-direction: column;
+    gap: 0px;
+  }
+  .subcontent__box__one{
+    flex-direction: column;
+  }
+  .subcontent .container{
+    margin-left: -20px;
+  }
+  .subcontent__box{
+    flex-direction: column;
+    margin-bottom: -50px;
+  }
+  .subcontent__box__image{
+    border: none;
+  }
+  .subcontent__box__title{
+    font-size: var(--size14);
+    margin-left: -70px;
+  }
+  .subcontent__box__title__two{
+    font-size: var(--size16);
+    margin-left: -30px;
+  }
+  .subcontent__box__one__forma__input{
+    width: 200px;
+    margin-left: -50px;
+    font-size: var(--size14);
+  }
+  .subcontent__box__one__forma__btn{
+    margin-left: -50px;
+    font-size: var(--size14);
+  }
+  .subcontent__box__list{
+    flex-direction: column;
+    margin-left: -50px;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  .subcontent__box__list__item{
+    font-size: var(--size14);
+    border: none;
+  }
+  .subcontent__box__title__one{
+    font-size: var(--size14);
+    margin-left: -50px;
+  }
 }
