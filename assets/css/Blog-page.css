@@ -185,6 +185,47 @@ input {
   text-align: center;
   padding: 10px;
 }
+
+.container1{
+    display: flex;
+    width: 1920px;
+    height: 667px;
+}
+span{
+    color: rgba(0, 225, 255, 0.945)
+}
+.h1{
+    width: 400px;
+    height: 36px;
+    text-align: start;
+
+    
+}
+.title1-uchun{
+width: 680px;
+height: 198px;
+text-align: start;
+
+   }
+.btn-uchun{
+    width: 779px;
+    height: 526px;
+    border: none;
+    display: flex;
+    align-items: end;
+}
+
+.btn1-uchun{
+    width: 236px;
+    height: 63px;
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+  
+
+
+}
+
 .blog {
   max-width: 1200px;
   margin: 0 auto;
